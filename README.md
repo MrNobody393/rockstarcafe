@@ -40,4 +40,4 @@ The cart supports adding items, changing quantities, removing products, and view
 
 ## Production deployment
 
-Run `npm run build` before deploying and serve the generated Next.js app with a compatible Node.js host. Set the production domain and social-preview image in `src/app/layout.tsx` metadata after choosing the live URL. The menu, cart, and informational pages work without server credentials, but orders and contact messages remain local demo flows until a backend or form service is connected.
+Run `npm run build` before deploying and serve the generated Next.js app with a compatible Node.js host. Set `NEXT_PUBLIC_SITE_URL` to the canonical production origin (for example, `https://your-domain.example`) so social image URLs and restaurant structured data use the live domain. The menu, cart, and informational pages work without server credentials, but orders and contact messages remain local demo flows until a backend or form service is connected.

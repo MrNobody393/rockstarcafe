@@ -222,3 +222,5 @@
 }
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .site-header.is-scrolled .brand{opacity:0;visibility:hidden;transform:translateY(-14px);pointer-events:none}
+.rooftop-section{overflow-x:clip}
+html,body{max-width:100%;overflow-x:clip}
